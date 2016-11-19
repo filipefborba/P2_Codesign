@@ -1,4 +1,35 @@
+main {
+  clear: both;
+}
+
+body {
+  max-width: 100%;
+}
+
+p {
+  font-size: 5em;
+}
+
+.menuitem {
+  width: 25%;
+  float: left;
+}
+
+.menutext {
+  padding: 1em 0em 0em 4.9em;
+  font-size: 3em;
+  text-align: center;
+}
+
 .circular-shape {
-    width: 4%;
+    width: 2%;
     height: auto;
+    margin: 3em;
+}
+
+.icones {
+  padding: 0em 1em 1em 1em;
+  display: block;
+  margin: 0 auto;
+  border-radius: 60%;
 }
