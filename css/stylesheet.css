@@ -1,4 +1,41 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 0 .2rem;
+    text-align: center;
+    padding: 1rem;
+    width: 100%;
+}
+
+p {
+  font-size: 6rem;
+}
+
 .circular-shape {
-    width: 4%;
-    height: auto;
+  width: 10%;
+  float: left;
+  margin: 1em;
+  padding-right: 1.5em;
+}
+
+.menutext {
+  float: left;
+  width: 60%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1rem;
+}
+
+.icones {
+  margin-top: 20rem;
+  margin-left: 2rem;
+  width: 45%
+}
+
+.icones2 {
+  margin-top: 2rem;
+  margin-left: 17rem;
+  width: 45%
 }

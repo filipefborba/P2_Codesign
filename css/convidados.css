@@ -15,7 +15,10 @@
 	height: 70px;
 	margin-bottom: 10px;
 	background-color: ;
+}
 
+h1 {
+	font-size: 5em;
 }
 
 .back-arrow{
@@ -24,6 +27,7 @@
 	height: auto;
 	display: inline;
 }
+<<<<<<< HEAD:css/convidados.css
 
 .titulo{
 	position: relative;
@@ -42,3 +46,5 @@
 }
 
 }
+=======
+>>>>>>> 2af21d8770fec00f1ce3a6c0f73db3ddd5728170:css/convidados.css
