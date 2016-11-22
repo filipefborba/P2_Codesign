@@ -5,9 +5,10 @@
     margin: 2px;
     border: 2px solid black;
 
+
 }
 
-header{
+.header{
 	position: relative;
 	border: 1px solid black;
 	width: auto;
@@ -21,7 +22,29 @@ h1 {
 }
 
 .back-arrow{
+	position: relative;
 	width: 4%;
 	height: auto;
 	display: inline;
 }
+<<<<<<< HEAD:css/convidados.css
+
+.titulo{
+	position: relative;
+	font-size: 36px;
+	left: 40%;
+	display: inline;
+
+}
+
+.circular-shape{
+	position: relative;
+	left: 73%;
+	width: 4%;
+	height: auto;
+	display: inline;
+}
+
+}
+=======
+>>>>>>> 2af21d8770fec00f1ce3a6c0f73db3ddd5728170:css/convidados.css
