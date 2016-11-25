@@ -76,3 +76,40 @@ header {
   margin-top: 65px;
   margin-left: 150px;
 }
+
+.add-guest {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.confirmation-text {
+  font-size: 2rem;
+  position: absolute;
+  margin-top: 140px;
+  margin-left: 100px;
+}
+
+.confirmation-icon {
+  max-width: 120px;
+  height: auto;
+  width: auto;
+  margin-top: 180px;
+  margin-left: 130px;
+  position: absolute;
+}
+
+.warning-icon {
+  max-width: 80px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin-top: 50px;
+  margin-left: 20px;
+}
+
+.warning-text {
+  font-size: 3rem;
+  position: absolute;
+  margin-top: 70px;
+  margin-left: 120px;
+}
