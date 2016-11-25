@@ -113,3 +113,12 @@ header {
   margin-top: 70px;
   margin-left: 120px;
 }
+
+.send-icon {
+  max-width: 120px;
+  height: auto;
+  width: auto;
+  margin-top: 180px;
+  margin-left: 130px;
+  position: absolute;
+}
