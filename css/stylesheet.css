@@ -122,3 +122,12 @@ header {
   margin-left: 130px;
   position: absolute;
 }
+
+.camera-icon {
+  max-width: 30px;
+  height: auto;
+  width: auto;
+  margin-top: -50px;
+  margin-left: 190px;
+  position: absolute;
+}
