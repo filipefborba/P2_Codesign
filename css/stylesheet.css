@@ -131,3 +131,27 @@ header {
   margin-left: 190px;
   position: absolute;
 }
+
+table, th, td {
+  border-collapse: collapse;
+  border: 1px solid black;
+  vertical-align: middle;
+}
+
+th {
+  font-weight: bold;
+  text-align: right;
+}
+
+td {
+  width: 22.5%;
+  text-align: center;
+}
+
+.history-table {
+  width: 90%;
+  height: 150px;
+  margin-left: 20px;
+  margin-top: 30px;
+  text-align: right;
+}
