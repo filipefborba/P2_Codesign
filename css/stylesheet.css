@@ -218,7 +218,7 @@ header {
   max-width: 120px;
   height: auto;
   width: auto;
-  margin-top: 180px;
+  margin-top: 90px;
   margin-left: 130px;
   position: absolute;
 }
@@ -278,6 +278,11 @@ input[type="number"] {
 }
 
 input[type="checkbox"] {
-  font-size: 10rem;
-  margin-left: 80px;
+  margin-left: 90px;
+}
+
+textarea {
+  height: 200px;
+  width: 100%;
+  font-size: 2rem;
 }

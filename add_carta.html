@@ -9,7 +9,6 @@
     <link type="text/css" rel="stylesheet" href="CSS/bootstrap.css" />
     <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
     <script type="text/javascript" src="js/add_carta.js"></script>
-
     <title>Aplicativo</title>
   </head>
   <body class="fundo">
@@ -37,16 +36,17 @@
   						<option value="Encomenda"></option>
   						<option value="Banco"></option>
             </datalist><br><br>
-          <input type="text" size="31" name="tipo_de_carta" value="" placeholder="Código de Rastreamento"><br><br>
+          <input type="text" name="tipo_de_carta" value="" placeholder="Código de Rastreamento"><br><br>
           <img class="camera-icon" src="img/camera.png" alt="" />
           <div style="width: 0; height: 0; overflow: hidden;">
           <input class="camera" type="file" accept="image/*" capture="camera" id="cameraInput" name="cameraInput">
           </div>
+          <input type="text" name="obs" value="" placeholder="Observações" style="height: 80px"><br><br>
 				</form>
       </div>
       <div>
-				<p class="confirmation-text" style="margin-top: 60px; margin-left: 120px;">Registrar Carta</p>
-				<a href="cartas.html"><img class="send-icon" src="img/register.png" style="margin-top: 100px;" alt="" /></a>
+				<p class="confirmation-text" style="margin-top: 20px; margin-left: 120px;">Registrar Carta</p>
+				<a href="cartas.html"><img class="send-icon" src="img/register.png" style="margin-top: 70px;" alt="" /></a>
       </div>
     </main>
   </body>
