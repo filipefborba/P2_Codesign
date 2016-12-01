@@ -14,7 +14,6 @@ header {
 }
 
 .menutext {
-
   font-size: 3rem;
   text-align: center;
   margin-top: -35px;
@@ -39,6 +38,7 @@ header {
   width: auto;
   margin-top: 70px;
   margin-left: 4px;
+  background: none;
 }
 
 .add-button {
@@ -135,10 +135,10 @@ header {
 .status{
   font-size: 2.5rem;
   position: relative;
-  padding-right: 0px; 
+  padding-right: 0px;
   margin-right: 0px;
   display: inline-block;
-}  
+}
 
 .liberado{
   color: green;
