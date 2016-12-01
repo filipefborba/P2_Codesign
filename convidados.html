@@ -7,17 +7,16 @@
     <link type="text/css" rel="stylesheet" href="CSS/reset.css" />
 		<link type="text/css" rel="stylesheet" href="CSS/stylesheet.css" />
     <link type="text/css" rel="stylesheet" href="CSS/bootstrap.css" />
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
     <title>Aplicativo</title>
   </head>
   <body>
     <header>
       <a href="index.html"><img class="circular-shape circular-shape-left" src="img/left-arrow.png" /></a>
       <p class="menutext">Convidados</p>
-      <img class="circular-shape circular-shape-right" src="img/circular-shape.png" alt="" />
     </header>
     <main>
       <div>
-        <p class="apartment">Apartamento:</p>
         <select class="select-apartment">
           <option value="">Selecione o Apartamento</option>
           <option value="101">101</option>
@@ -25,14 +24,27 @@
           <option value="103">103</option>
         </select>
       </div>
-      <div>
-        <p class="guests">Convidados:</p>
-        <select class="select-guests">
-          <option value="">Selecione o Convidado</option>
-          <option value="filipe">Filipe Borba</option>
-          <option value="gabriel">Gabriel Noal</option>
-        </select>
+
+      <div class="moradores">
+        <p >Moradores:</p>
+        <ul class="lista_de_moradores">
+          <li id="list_item">Morador 1</li>
+          <li id="list_item">Morador 2</li>
+          <li id="list_item">Morador 3</li>  
+        </ul>
+        <div class="ap_box">
+          <p>AP</p>
+        </div>  
       </div>
+      
+      <div class="guests">
+        <p>Convidados:</p>
+        <p class="name">Gabriel Noal</p>
+        <p class="status liberado">Liberado</p>
+        <p class="name">Caue Viadão</p>
+        <p class="status avisar">Avisar</p>
+      </div>
+ 
       <div>
         <a href="add_convidados.html"><img class="add-button" src="img/add-button.png" alt="" /></a>
         <p class="add-button-text">Cadastrar Visitante</p>

@@ -1,3 +1,7 @@
+body{
+  background-color: #eeeeee
+}
+
 header {
   box-shadow: 1px 2px 0px black;
   height: 70px;
@@ -10,9 +14,12 @@ header {
 }
 
 .menutext {
+
   font-size: 3rem;
-  margin-left: 110px;
-  margin-top: -30px;
+  text-align: center;
+  margin-top: -35px;
+  height: auto;
+  width: auto;
 }
 
 .circular-shape-left {
@@ -57,25 +64,82 @@ header {
 }
 
 .select-apartment {
-  font-size: 1.5rem;
-  position: absolute;
+  position: relative;
+  font-size: 2rem;
+  width: 365px;
+  height: 50px;
   margin-top: 25px;
-  margin-left: 150px;
+  margin-left: 5px;
+  padding: 5px;
+}
+
+.moradores{
+  position: relative;
+  width: auto;
+  font-size: 2rem;
+  margin-top: 15px;
+  margin-left: 0px;
+  padding: 10px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid black;
+}
+
+.lista_de_moradores{
+  display: inline;
+
+}
+
+#list_item{
+  margin-left: 10px;
+  max-width: 100px;
+}
+
+.ap_box{
+  position: absolute;
+  top: 30px;
+  left: 290px;
+  width: 50px;
+  padding: 3px;
+  border: 2px solid black;
+  text-align: center;
 }
 
 .guests {
-  font-size: 2rem;
-  position: absolute;
-  margin-top: 60px;
-  margin-left: 20px;
+  position: relative;
+  width: auto;
+  font-size: 3rem;
+  margin-top: 15px;
+  margin-left: 0px;
+  padding: 5px;
+  padding-left: 10px;
+  padding-bottom: 10px;
 }
 
-.select-guests {
-  font-size: 1.5rem;
-  position: absolute;
-  margin-top: 65px;
-  margin-left: 150px;
+.name{
+  font-size: 2.5rem;
+  min-width: 130px
+  max-width: 131px;
+  position: relative;
+  margin-right: 100px;
+  display: inline;
 }
+
+.status{
+  font-size: 2.5rem;
+  position: relative;
+  padding-right: 0px; 
+  margin-right: 0px;
+  display: inline-block;
+}  
+
+.liberado{
+  color: green;
+}
+.avisar{
+  color: red;
+}
+
 
 .add-guest {
   margin-left: 20px;
