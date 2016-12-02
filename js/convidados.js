@@ -42,6 +42,7 @@ $(document).ready(function() {
 		$('#status6').css('display','inline-block');
 
 		}
+
 	});
 
 
