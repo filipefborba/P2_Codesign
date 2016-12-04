@@ -283,6 +283,12 @@ input[type="list"] {
   font-size: 2rem;
 }
 
+select {
+  height: 40px;
+  width: 100%;
+  font-size: 2rem;
+}
+
 input[type="number"] {
   height: 40px;
   width: 100%;
